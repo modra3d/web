@@ -1,7 +1,6 @@
 export default function Modra3DTerms() {
   return (
-    <div style={{ fontFamily: "Georgia, serif", maxWidth: 820, margin: "0 auto", padding: "40px 24px", color: "#1a1a1a", lineHeight: 1.75 }}>
-
+       <div style={{ fontFamily: "Georgia, serif", maxWidth: 820, margin: "0 auto", padding: "40px 24px", color: "#1a1a1a", lineHeight: 1.75, background: "#ffffff", minHeight: "100vh" }}>
       <h1>Modra3D – Terms and Conditions</h1>
 
       <h2>1. Modra3D Specification</h2>
