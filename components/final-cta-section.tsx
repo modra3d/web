@@ -70,8 +70,8 @@ export function FinalCtaSection() {
              
               />
                  <Image
-                src="/czechinvest.png"
-                alt="OP TAK"
+                src="/czechInvest.png"
+                alt="Czech Invest"
                 width={260}
              
               />
