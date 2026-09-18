@@ -72,7 +72,7 @@ export function FinalCtaSection() {
                  <Image
                 src="/czechInvest.png"
                 alt="Czech Invest"
-                width={260}
+                width={460}
              
               />
             </div>
