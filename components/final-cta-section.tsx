@@ -60,13 +60,13 @@ export function FinalCtaSection() {
               <Image
                 src="/tacr.png"
                 alt="TA ČR – Technology Agency of the Czech Republic"
-                width={360}
+                width={260}
                 
               />
               <Image
                 src="/optak.jpeg"
                 alt="OP TAK"
-                width={360}
+                width={260}
              
               />
             </div>
