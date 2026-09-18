@@ -60,15 +60,13 @@ export function FinalCtaSection() {
               <Image
                 src="/tacr.png"
                 alt="TA ČR – Technology Agency of the Czech Republic"
-                width={160}
-                height={60}
+                width={360}
                 className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all"
               />
               <Image
                 src="/optak.jpeg"
                 alt="OP TAK"
-                width={160}
-                height={60}
+                width={360}
                 className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all"
               />
             </div>
