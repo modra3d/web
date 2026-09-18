@@ -58,14 +58,14 @@ export function FinalCtaSection() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-12">
               <Image
-                src="/tacr.jpg"
+                src="/tacr.png"
                 alt="TA ČR – Technology Agency of the Czech Republic"
                 width={160}
                 height={60}
                 className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all"
               />
               <Image
-                src="/optak.jpg"
+                src="/optak.jpeg"
                 alt="OP TAK"
                 width={160}
                 height={60}
