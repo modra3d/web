@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
 
@@ -35,7 +36,7 @@ export function FinalCtaSection() {
             </Button>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 text-center">
+          <div className="grid md:grid-cols-3 gap-8 text-center mb-16">
             <div>
               <div className="text-3xl font-bold text-accent mb-2">14-Day</div>
               <div className="text-sm text-muted-foreground">Free Trial</div>
@@ -47,6 +48,29 @@ export function FinalCtaSection() {
             <div>
               <div className="text-3xl font-bold text-accent mb-2">∞</div>
               <div className="text-sm text-muted-foreground">Design Possibilities</div>
+            </div>
+          </div>
+
+          {/* Grant agencies supporting the project */}
+          <div className="pt-12 border-t border-border/50">
+            <p className="text-xs uppercase tracking-widest text-muted-foreground mb-6">
+              Project Supported By
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-12">
+              <Image
+                src="/tacr.jpg"
+                alt="TA ČR – Technology Agency of the Czech Republic"
+                width={160}
+                height={60}
+                className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all"
+              />
+              <Image
+                src="/optak.jpg"
+                alt="OP TAK"
+                width={160}
+                height={60}
+                className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all"
+              />
             </div>
           </div>
         </div>
