@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Modra 3D',
+  title: 'Modra 3D AI',
   description: 'Modra 3D',
   generator: 'v0.app',
 }
